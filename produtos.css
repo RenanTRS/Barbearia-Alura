@@ -1,5 +1,17 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+nav{/*Menu*/
+    position: absolute; /*Livre dentro da div relative*/
+    right: 0px;
+    top: 110px; /*Altura do menu*/
 }
 
 nav li{
