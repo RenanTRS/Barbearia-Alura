@@ -43,8 +43,8 @@
 ```font-style:italic;``` Código css para deixar em itálico.  
 ```veritical-align:top;``` Serve para alinhar pela forma vertical.  
 
-#Parte 2
-##Aula01 - Criando uma nova página.
+# Parte 2
+## Aula01 - Criando uma nova página.
 ## Nova página:
 	- Apenas criou um arquivo html e css.
 
