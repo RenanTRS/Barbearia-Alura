@@ -95,3 +95,15 @@ CSS:
 		- middle
 		- bottom
 		- auto
+
+## Aula 05
+### Aplicando bordas:
+- CSS
+```
+border: 2px solid #000000;
+```
+###Bordas arredondadas:
+- CSS
+```
+border-radius: 10x;
+```
