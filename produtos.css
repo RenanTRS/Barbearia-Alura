@@ -46,7 +46,10 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    
+}
+.produto li:hover{
+    color: red;
+    border-color: red;
 }
 .produto h2{
     font-size: 30px;
