@@ -25,6 +25,10 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 .produto{
     width: 940px;
