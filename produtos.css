@@ -48,8 +48,13 @@ nav a:hover{
     border-radius: 10px;
 }
 .produto li:hover{
-    color: red;
     border-color: red;
+}
+.produto li:active{
+    border-color: white;
+}
+.produto li:hover h2{
+    font-size: 34px;
 }
 .produto h2{
     font-size: 30px;
