@@ -70,3 +70,11 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    text-align: center;
+    background: url("assets/bg.jpg");
+    font-size: 20px;
+    color: white;
+    padding: 40px 0;
+}
