@@ -67,11 +67,11 @@ Ex:
 	<li><a href="index.html">Home</a></li>
 
 ### Arrumando a lista:
-	- Acrescentou a tag <nav> para especificar que é o nav menu e dentro ficou as tags <ul>.
-	- No arquivo css: Foi usado text-decoration:none; para tirar a decoração com o parâmetro none.
-	- No arquivo css: Foi usado display:inline; para colocar a lista em uma linha.
-	 - Css: Foi usado font-weight:22px; como peso da fonte "negrito".
-	- Css: Foi usado text-transform:uppercase; para deixar o texto em caixa alta.
+- Acrescentou a tag ```<nav>``` para especificar que é o nav menu e dentro ficou as tags ```<ul>```.  
+- No arquivo css: Foi usado text-decoration:none; para tirar a decoração com o parâmetro none.  
+- No arquivo css: Foi usado display:inline;  para colocar a lista em uma linha.  
+- Css: Foi usado font-weight:22px; como peso da fonte "negrito".  
+- Css: Foi usado text-transform:uppercase; para deixar o texto em caixa alta.  
 
 ## Aula03 - Posicionamento dos elementos
 ### Limpando o CSS:
@@ -90,12 +90,12 @@ CSS:
 
 ## Aula04
 ### Divisões Semânticas:
--HTML: 
+- **HTML:** 
 	<main> -> assim como o menu tem a tag <nav>, o contetúdo principal possui sua própria tag.
 
 ### Reforçando o inline-block:
-CSS: 
-	vertical-align: ; -> serve para alinhar o conteúdo de forma vertical
+**CSS:**  
+```vertical-align: ;``` -> serve para alinhar o conteúdo de forma vertical
 		- top
 		- middle
 		- bottom
@@ -112,3 +112,22 @@ border: 2px solid #000000;
 ```
 border-radius: 10x;
 ```
+
+## Aula06  
+### Pseudo-classes de Estado:  
+- **CSS**  
+- ```:hover``` Serve para informar um comportamento sempre que o mouse passar por cima.  
+```
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+```  
+### Aplicando hover e active:  
+- **CSS**  
+- ```:active``` Serve para informar um comportamento sempre que o mouse clicar.  
+```
+nav li:active{
+	border-color: white;
+}
+```  
