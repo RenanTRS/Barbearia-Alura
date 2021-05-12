@@ -131,3 +131,14 @@ nav li:active{
 	border-color: white;
 }
 ```  
+
+## Aula07
+### Rodapé:
+- **HTML**  
+```<footer>``` Serve para fazer o rodapé.  
+- **CSS**  
+```background: url(endereco.jpg);``` Serve para mostrar uma imagem de fundo.  
+
+### Caracteres especiais:
+- **HTML**  
+```&copy;``` Serve para mostrar aquel símbolo de copyright.  
