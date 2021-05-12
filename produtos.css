@@ -78,3 +78,9 @@ footer{
     color: white;
     padding: 40px 0;
 }
+
+.copyright{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
