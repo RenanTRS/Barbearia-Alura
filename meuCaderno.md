@@ -147,4 +147,30 @@ nav li:active{
 <form>
 ```
 ### Estilos para o formulário:  
-- Apenas foi adicionado estilo ao formulário com comandos css que já sabemos.
+- Apenas foi adicionado estilo ao formulário com comandos css que já sabemos.  
+
+## Aula03 - Tipos de campos diferentes
+### Formulários mais completos:  
+```<textarea>``` Tag de campo de texto para mensagem.  
+```<input type="radio" name="nomeName" value="" id="">```  Input tipo **radio** são como lugares para marcar uma opção, **name** é como se fosse a class do input, serve para quando marcar um radio automaticamente vai desmarcar o outro que pertence ao mesmo name.  
+
+- Outra forma de fazer um **input** seria por a tag ```<input>``` dentro da tag ```<label>```.  
+```
+<label><input type="">Texto</label>
+```
+- ```<input type="checkbox">``` Serve para criar um 
+checkbox.  
+```
+<label><input="checkbox">Gostaria de receber nossas novidades por email?</label>
+```
+- **Ex:**
+```
+<label for="radioEmail">Email:</label>
+<input type="radio" name="radioContato" id="radioEmail">
+
+<label for="radioPhone">Phone:</label>
+<input type="radio" name="radioContato" id="radioEmail">
+
+<label><input="checkbox">Gostaria de receber nossas novidades por email?</label>
+```
+
