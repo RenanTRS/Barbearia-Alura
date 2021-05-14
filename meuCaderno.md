@@ -121,3 +121,8 @@ nav li:active{
 ### Caracteres especiais:
 - **HTML**  
 ```&copy;``` Serve para mostrar aquel símbolo de copyright.  
+
+# Parte 3
+## Aula01 - Criando uma nova página  
+### Começando a página de contato:  
+- Apenas copiou e colou de produtos.html para contatos.html e renomeou arquivos .css.  
