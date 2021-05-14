@@ -126,3 +126,25 @@ nav li:active{
 ## Aula01 - Criando uma nova página  
 ### Começando a página de contato:  
 - Apenas copiou e colou de produtos.html para contatos.html e renomeou arquivos .css.  
+
+## Aula02 - Começando um formulário:
+### Campos básicos:
+```<form>``` Tag para criar um formulário.  
+```<label for="">``` Tag que serve como etiqueta para o input.  
+```<input type="" id="">``` Tag que irá receber os valores.  
+```<input type="submit" value="">``` Tag para criar um botão.  
+
+- **Ex:**
+```
+<form>
+	<label for="nome">Nome</label>
+	<input type="text" id="nome">
+	
+	<label for="email">Email</label>
+	<input type="text" id="email">
+
+	<input type="submit" value="Enviar">
+<form>
+```
+### Estilos para o formulário:  
+- Apenas foi adicionado estilo ao formulário com comandos css que já sabemos.
