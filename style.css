@@ -84,3 +84,22 @@ footer{
     color: white;
     margin-top: 10px;
 }
+
+.mainContatos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label{
+    font-size: 22px;
+    display: block;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
