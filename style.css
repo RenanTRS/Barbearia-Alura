@@ -89,7 +89,9 @@ footer{
     width: 940px;
     margin: 0 auto;
 }
-
+form{
+    margin: 40px 0;
+}
 form label{
     font-size: 22px;
     display: block;
