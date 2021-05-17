@@ -105,3 +105,6 @@ form label, form p{
     border: 1px solid gray;
     border-radius: 5px;
 }
+.checkbox{
+    margin: 20px 0;
+}
