@@ -92,12 +92,12 @@ footer{
 form{
     margin: 40px 0;
 }
-form label{
+form label, form p{
     font-size: 22px;
     display: block;
     margin-bottom: 10px;
 }
-form input{
+form input, form textarea{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
