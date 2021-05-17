@@ -239,4 +239,45 @@ form input, form textarea{
 ### Entendendo transformações:  
 - **CSS**  
 ```transform: scale(1.2);``` Serve para aumentar proporcionalmente  x1.2.  
-```transform: rotate(70deg);``` Serve para virar 70º.
+```transform: rotate(70deg);``` Serve para virar 70º.  
+
+## Aula06 - Estrutura de tabelas
+### Tabéla básica:
+- **HTML**
+```<table>``` Tag para tabela.  
+```<tr>``` Tag para linha.  
+```<td>``` Tag para células.
+- **Ex:**  
+```
+<table>
+	<tr>
+		<td>Coluna1</td>
+		<td>Coluna 2</td>
+	</tr>
+	<tr>
+		<td>Coluna1</td>
+		<td>Coluna2</td>
+	</tr>
+</table>
+```
+### Tags semânticas para tabelas:  
+- **HTML**  
+```<thead>``` Para o cabeçalho da tabela.  
+```<th>``` Usa-se no lugar de ```<td>``` para especificar o título da tabela dentro do cabeçalho.  
+```<tbody>``` Para o corpo da tabela
+- **Ex:**  
+```
+<table>
+	<thead>
+		<tr>
+			<th>Dia</th>
+			<th>Horário</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+```
