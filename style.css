@@ -92,7 +92,7 @@ footer{
 form{
     margin: 40px 0;
 }
-form label, form p{
+form label, form legend{
     font-size: 22px;
     display: block;
     margin-bottom: 10px;
