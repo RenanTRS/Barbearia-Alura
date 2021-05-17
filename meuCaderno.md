@@ -174,3 +174,21 @@ checkbox.
 <label><input="checkbox">Gostaria de receber nossas novidades por email?</label>
 ```
 
+### CSS para formulários complexos:  
+- Ajustes para **inputs radio**  
+- **CSS.**  
+Como modificar mais de uma tag de uma vez com o mesmo estilo.
+```
+form input, form textarea{
+}
+```
+### Selecionando Opções:  
+```<select>``` Serve para criar um menu caixa para selecionar uma opção.  
+```<option>``` Serve para colocar as opções dentro da caixa.  
+- **Ex:**  
+```
+<select>
+	<option>Teste</option>
+	<option>Teste</option>
+</select>
+```
