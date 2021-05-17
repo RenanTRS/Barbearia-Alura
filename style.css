@@ -97,7 +97,7 @@ form label, form p{
     display: block;
     margin-bottom: 10px;
 }
-form input, form textarea{
+.inputPadrao{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
