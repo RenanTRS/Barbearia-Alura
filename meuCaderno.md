@@ -228,4 +228,15 @@ form input, form textarea{
 	<legend>Título</legend>
 </fieldset>
 ```
-```<img src="" alt="">``` **alt** Serve para acessibilidade.
+```<img src="" alt="">``` **alt** Serve para acessibilidade.  
+
+## Aula05 - CSS Avançado
+### O que são transições:
+- **CSS**  
+```transition: 1s;``` Serve para dizer que a transição irá levar 1 segundo.  
+```cursor: pointer;``` Serve para alterar o cursor para a mãozinha.
+
+### Entendendo transformações:  
+- **CSS**  
+```transform: scale(1.2);``` Serve para aumentar proporcionalmente  x1.2.  
+```transform: rotate(70deg);``` Serve para virar 70º.
