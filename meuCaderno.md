@@ -192,3 +192,40 @@ form input, form textarea{
 	<option>Teste</option>
 </select>
 ```
+
+## Aula04 - Melhorando a semântica
+### Inputs para celulares:  
+- Tipos de inputs, são uteis pois mudam o formato do teclado em um celular para facilitar a busca.  
+- **HTML**  
+```<input type="email">``` Para email
+```<input type="tel">``` Para número de telefone
+```<input type="number">``` Para números
+```<input type="password">``` Para senhas
+```<input type="date">``` Para datas
+```<input type="datetime">``` Para data e hora
+```<input type="month">``` Para mês
+```<input type="search">``` Para buscas
+
+### Dados importantes nos inputs:  
+- **HTML**  
+```<input required>``` A opção **required** serve para indicar que é um campo de preenchimento obrigatório.
+```<input placeholder="Sua mensagem">``` **placeholder** serve para mostrar uma mensagem dentro do campo.  
+- **Ex:**  
+```<input type="search" required placeholder="">```
+```<input checked>``` Serve para marcar como padrão os imputs que são marcados
+- **Ex:**  
+```
+<input type="radio" checked>
+<input type="checkbox" checked>
+```
+### Melhorando a semântica do formulário:
+- **HTML**  
+```<fieldset>``` Serve para separar formulários.  
+```<legend>``` Serve como títulos em fieldset.  
+- **Ex:**  
+```
+<fieldset>
+	<legend>Título</legend>
+</fieldset>
+```
+```<img src="" alt="">``` **alt** Serve para acessibilidade.
