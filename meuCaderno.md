@@ -197,14 +197,14 @@ form input, form textarea{
 ### Inputs para celulares:  
 - Tipos de inputs, são uteis pois mudam o formato do teclado em um celular para facilitar a busca.  
 - **HTML**  
-```<input type="email">``` Para email
-```<input type="tel">``` Para número de telefone
-```<input type="number">``` Para números
-```<input type="password">``` Para senhas
-```<input type="date">``` Para datas
-```<input type="datetime">``` Para data e hora
-```<input type="month">``` Para mês
-```<input type="search">``` Para buscas
+```<input type="email">``` Para email.  
+```<input type="tel">``` Para número de telefone.  
+```<input type="number">``` Para números.  
+```<input type="password">``` Para senhas.  
+```<input type="date">``` Para datas.  
+```<input type="datetime">``` Para data e hora.  
+```<input type="month">``` Para mês.  
+```<input type="search">``` Para buscas.  
 
 ### Dados importantes nos inputs:  
 - **HTML**  
@@ -234,7 +234,7 @@ form input, form textarea{
 ### O que são transições:
 - **CSS**  
 ```transition: 1s;``` Serve para dizer que a transição irá levar 1 segundo.  
-```cursor: pointer;``` Serve para alterar o cursor para a mãozinha.
+```cursor: pointer;``` Serve para alterar o cursor para a mãozinha.  
 
 ### Entendendo transformações:  
 - **CSS**  
@@ -246,7 +246,7 @@ form input, form textarea{
 - **HTML**
 ```<table>``` Tag para tabela.  
 ```<tr>``` Tag para linha.  
-```<td>``` Tag para células.
+```<td>``` Tag para células.  
 - **Ex:**  
 ```
 <table>
@@ -264,7 +264,7 @@ form input, form textarea{
 - **HTML**  
 ```<thead>``` Para o cabeçalho da tabela.  
 ```<th>``` Usa-se no lugar de ```<td>``` para especificar o título da tabela dentro do cabeçalho.  
-```<tbody>``` Para o corpo da tabela
+```<tbody>``` Para o corpo da tabela.  
 - **Ex:**  
 ```
 <table>
@@ -281,3 +281,14 @@ form input, form textarea{
 	</tbody>
 </table>
 ```
+
+# Parte 04 - Avançando no CSS
+## Aula01 - Adaptando a página inicial
+### Refazendo a página inicial:
+- **HTML**  
+```<section>``` Tag para quando o conteúdo é para apenas um objetivo (não entendi)  
+
+### Usando o float:
+- **CSS**  
+```float: left;``` Essa propriedade serve para levantar o item mas sem deixar que outros itens fiquem por baixo.  
+```clear: left;``` Essa propriedade serve para limpar "ignorar" o float.
