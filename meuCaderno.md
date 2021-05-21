@@ -292,3 +292,28 @@ form input, form textarea{
 - **CSS**  
 ```float: left;``` Essa propriedade serve para levantar o item mas sem deixar que outros itens fiquem por baixo.  
 ```clear: left;``` Essa propriedade serve para limpar "ignorar" o float.
+
+## Aula02 Conteúdo externo
+### Fontes exernas:
+- Google Fonts
+
+### Trabalhando com mapas:
+- Foi usado a tag ```<iframe>```
+
+## Aula03 - Melhorando o CSS  
+### Pseudo-classes:  
+- **HTML**  
+Para um elemento   ficar do lado da lista mesmo com o inline-block ativo é preciso que no html estejam lado a lado
+- **Ex:**  
+```
+</ul><img>
+```
+- **CSS**  
+```line-height: 1.5;``` Altura da linha
+```:first-child``` Modifica apenas o primeiro item.  
+```:last-child``` Modifica apenas o último item.  
+```:nth-child(3)``` Modifica apenas o elemento que foi informado.  
+```:nth-child(2n)``` Modifica os elementos em posição par.  
+### Aplicando gradientes:  
+- **CSS**  
+ ```background: linear-gradient(white, grey);``` Faz um efeito de gradiente do branco ao cinza;
