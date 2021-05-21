@@ -316,4 +316,6 @@ Para um elemento   ficar do lado da lista mesmo com o inline-block ativo é prec
 ```:nth-child(2n)``` Modifica os elementos em posição par.  
 ### Aplicando gradientes:  
 - **CSS**  
- ```background: linear-gradient(white, grey);``` Faz um efeito de gradiente do branco ao cinza;
+ ```background: linear-gradient(white, grey);``` Faz um efeito de gradiente do branco ao cinza, podento receber mais cores.  
+ ```background: radial-gradient(blue, yellow)``` Faz um efeito gradiente em formato circular.  
+ 
