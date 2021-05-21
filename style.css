@@ -149,7 +149,11 @@ td, th{
 .banner{
     width: 100%;
 }
-
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
 .tituloPrincipal{
     font-size: 2em;
     text-align: center;
@@ -175,6 +179,8 @@ td, th{
 
 .mapa{
     padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 .mapa p{
     margin-bottom: 2em;
@@ -183,6 +189,7 @@ td, th{
 
 .beneficios{
     padding: 3em 0;
+    background: linear-gradient(white, grey);
 }
 .conteudoBeneficios{
     width: 640px;
@@ -193,6 +200,7 @@ td, th{
     display: inline-block;
     vertical-align: top;
 }
+
 .itens{
     line-height: 1.5;
 }
