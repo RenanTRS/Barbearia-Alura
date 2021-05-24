@@ -323,3 +323,13 @@ Para um elemento   ficar do lado da lista mesmo com o inline-block ativo é prec
  ```:first-line``` Primeira linha.  
  ```:before ``` Antes, acompanhado a propriedade  ``` content: "algo";```.  
  ```:after ``` Depois, também acompanhando a propriedade  ``` content: "algo";```.  
+
+## Aula 04 - Selecionando qualquer coisa
+### Seletores avançados:  
+- **CSS**
+```main > p{}``` Usando ```>``` para selecionar apenas o filho direto.  
+```img + p {}``` Usando ```+``` para selecionar apenas algo que está depois de uma tag informada.  
+```img ~ p {}``` Usando ```~``` para selecionar todos os ```p``` que estão após a tag ```img```.  
+```.principal p:not(#missao){}``` Selecionar todos menos o ```id missão```.  
+- **Ex:**  
+```section > p + h2{}``` Selecionando o **h2** que é irmão de **p** que é filho direto de ```<section>```.
