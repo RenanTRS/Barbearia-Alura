@@ -207,6 +207,9 @@ td, th{
 .itens:first-child{
     font-weight: bold;
 }
+.itens:before{
+    content: "⭐ ";
+}
 .imagemBeneficios{
     width: 60%;
     border-radius: 10px;
