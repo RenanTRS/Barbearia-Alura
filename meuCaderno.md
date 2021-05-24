@@ -318,4 +318,8 @@ Para um elemento   ficar do lado da lista mesmo com o inline-block ativo é prec
 - **CSS**  
  ```background: linear-gradient(white, grey);``` Faz um efeito de gradiente do branco ao cinza, podento receber mais cores.  
  ```background: radial-gradient(blue, yellow)``` Faz um efeito gradiente em formato circular.  
- 
+ ### Pseudo-elementos.  
+ ```:first-letter``` Primeira letra.  
+ ```:first-line``` Primeira linha.  
+ ```:before ``` Antes, acompanhado a propriedade  ``` content: "algo";```.  
+ ```:after ``` Depois, também acompanhando a propriedade  ``` content: "algo";```.  
