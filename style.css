@@ -159,6 +159,7 @@ td, th{
     text-align: center;
     margin-bottom: 1em;
     clear: left;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .principal p{
@@ -176,7 +177,9 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;
 }
-
+#degrade{
+    background: linear-gradient(white, grey);
+}
 .mapa{
     padding: 3em 0;
     width: 940px;
@@ -189,7 +192,7 @@ td, th{
 
 .beneficios{
     padding: 3em 0;
-    background: linear-gradient(white, grey);
+    /*background: linear-gradient(white, grey);*/
 }
 .conteudoBeneficios{
     width: 640px;
