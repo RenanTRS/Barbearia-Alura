@@ -228,7 +228,7 @@ td, th{
 }
 
 /* Responsivo */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
     .caixa, .principal, .mapa, .conteudoBeneficios, .video, .produto, .produto li, .mainContatos{
         width: auto;
     }
