@@ -332,4 +332,27 @@ Para um elemento   ficar do lado da lista mesmo com o inline-block ativo é prec
 ```img ~ p {}``` Usando ```~``` para selecionar todos os ```p``` que estão após a tag ```img```.  
 ```.principal p:not(#missao){}``` Selecionar todos menos o ```id missão```.  
 - **Ex:**  
-```section > p + h2{}``` Selecionando o **h2** que é irmão de **p** que é filho direto de ```<section>```.
+```section > p + h2{}``` Selecionando o **h2** que é irmão de **p** que é filho direto de ```<section>```.  
+
+## Aula05 - Opacidade e sombra
+### Opacidade nos elementos:  
+- **CSS**  
+```opacity: ;``` Serve para manipular a opacidade de um elemento, sendo 0 a opacidade máxima e 1 nenhuma opacidade
+
+### Sombra nos elementos:  
+- **CSS**  
+```box-shadow: eixoX eixoY blur cor;``` forma de colocar sombra em volta de um elemento.  
+
+## Aula06 - Desing responsivo
+### Meta tag de Viewport:
+- **HTML**  
+```<meta name="viewport"content="width=device-width">``` Serve para o navegador entender que é um device.  
+- **CSS**  
+- Para editar um arquivo html e css para um dispositivo com um tamanho de tela menor:
+```
+@media screen and (max-width: 480px){
+	body{
+		background:red;
+	}
+}
+```
