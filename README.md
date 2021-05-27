@@ -1,6 +1,6 @@
-# Projeto do Curso de Html 5 e Css3 part 1 da Alura
+# Projeto do Curso de Html 5 e Css3 da Alura
 
 ## Tecnologias usadas:
-- HTML 5;  
-- CSS3;  
+- **HTML 5**;  
+- **CSS3**;  
 
