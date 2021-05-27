@@ -130,6 +130,7 @@ form label, form legend{
 }
 .enviar:active{
     background-color: white;
+    transition: 0.25s;
 }
 
 table{
